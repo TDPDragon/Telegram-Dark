@@ -32,7 +32,7 @@ dialogsUnreadHeight: 19px;
 dialogsUnreadPadding: 5px;
 
 dialogsBg: windowBg;
-dialogsBgOver: #f5f5f5;
+dialogsBgOver: #465c6e; //Полоска при наведении
 dialogsBgActive: #6a91b1;
 dialogsTextFont: font(fsize);
 dialogsTextFg: #888888;
@@ -42,7 +42,7 @@ dialogsDateFont: font(13px);
 dialogsDateFgActive: #ffffff;
 dialogsDateFg: #a8a8a8;
 dialogsDateSkip: 5px;
-dialogsNameFg: #000;
+dialogsNameFg: #ffffff;
 dialogsNameTop: 2px;
 
 dialogsRowHeight: 62px;

@@ -47,7 +47,7 @@ profileNameLabel: flatLabel(labelDefFlat) {
 	font: font(16px semibold);
 	width: 160px;
 	maxHeight: 24px;
-	textFg: #333333;
+	textFg: #ffffff; //Title в профиле
 }
 profileNameTextStyle: textStyle(defaultTextStyle) {
 }
@@ -67,7 +67,7 @@ profileSecondaryButton: RoundButton(profilePrimaryButton) {
 	textFg: semiboldButtonBlueText;
 	textFgOver: semiboldButtonBlueText;
 	textBg: #ffffff;
-	textBgOver: #f2f7fa;
+	textBgOver: #465c6e; //Кнопка добавить людюей(ховер)
 }
 profileAddMemberIcon: icon {
 	{ "profile_add_member", windowActiveBg, point(20px, 10px) },
@@ -108,7 +108,7 @@ profileBlockMarginRight: 10px;
 profileBlockMarginBottom: 7px;
 profileBlockTitleHeight: 24px;
 profileBlockTitleFont: font(14px semibold);
-profileBlockTitleFg: #333333;
+profileBlockTitleFg: #6a91b2; //Пункты в профиле
 profileBlockTitlePosition: point(24px, 0px);
 profileBlockLabel: flatLabel(labelDefFlat) {
 	textFg: windowSubTextFg;
@@ -138,7 +138,7 @@ profileMemberPaddingLeft: 16px;
 profileMemberPhotoSize: 46px;
 profileMemberPhotoPosition: point(12px, 6px);
 profileMemberNamePosition: point(68px, 11px);
-profileMemberNameFg: #222222;//windowTextFg;
+profileMemberNameFg: #ffffff;//Цвет ника в списке;
 profileMemberStatusPosition: point(68px, 31px);
 profileMemberStatusFg: windowSubTextFg;
 profileMemberStatusFgOver: windowSubTextFgOver;
